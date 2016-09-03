@@ -1,0 +1,56 @@
+body {
+  background: url('./rainbow-trout.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#card-reveal {
+  border-right: 5px solid #16692f;
+  border-left: 5px solid #16692f;
+  border-top: 5px solid #094b1e;
+  border-bottom: 5px solid #094b1e;
+  box-shadow: 10px 10px 5px #888888;
+  color: #073e0e;
+  font-size: 30px;
+  outline: none;
+}
+
+#birthday-card {
+  background-color: #faf9e0;
+  box-shadow: 10px 10px 5px #888888;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+#happy-birthday {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #16692f;
+}
+
+@media screen and (max-width: 770px) {
+  #birthday-card {
+    width: 60%;
+  }
+  #happy-birthday {
+    font-size: 40px;
+  }
+}
